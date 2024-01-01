@@ -5,7 +5,7 @@
 public class InOrder {
 	public static void main(String[] args) {
 		//// Write your code here
-		int Before, After;
+		int Before, After = 11;
 		Before = (int) ((Math.random() * (10 - 0)) + 0);
 		System.out.println(Before);
 		Boolean Tester = true;
@@ -15,7 +15,7 @@ public class InOrder {
 				Tester = false;
 			else if (Before < After) {
 				System.out.println(After);
-				Before = (int) ((Math.random() * (10 - 0)) + 0);
+				Before = After;
 			}
 
 		}
