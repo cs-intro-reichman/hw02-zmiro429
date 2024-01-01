@@ -53,7 +53,7 @@ public class OneOfEachStats {
 				sumf4++;
 			sum = 0;
 		}
-		System.out.println("Average: " + sumchild / T + " children to get atleast one of each gender.");
+		System.out.println("Average: " + sumchild / T + " children to get at least one of each gender.");
 		System.out.println("Number of families with 2 children: " + sumf1);
 		System.out.println("Number of families with 3 children: " + sumf2);
 		System.out.println("Number of families with 4 or more children: " + sumf4);
